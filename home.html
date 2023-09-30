@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+</head>
+<body>
+    <h1>Welcome to Arlington Sprouts Store</h1>
+    <form action="/display_item" method="POST">
+        <label for="item">Search for an item:</label>
+        <input type="text" id="item" name="item">
+        <button type="submit">Search</button>
+    </form>
+    <hr>
+    <h2>Insert a New Item</h2>
+    <form action="/add_item" method="POST">
+        <label for="Iname">Item Name:</label>
+        <input type="text" id="Iname" name="Iname">
+        <br>
+        <label for="Sprice">Price:</label>
+        <input type="text" id="Sprice" name="Sprice">
+        <br>
+        <label for="IiD">Item ID:</label>
+        <input type="text" id="IiD" name="IiD">
+        <br>
+        <button type="submit">Add Item</button>
+    </form>
+    <hr>
+    <h2>Update an Existing Item</h2>
+    <form action="/update_item" method="POST">
+        <label for="Iid">Item ID:</label>
+        <input type="text" id="Iid" name="Iid">
+        <br>
+        <label for="Iname">New Item Name:</label>
+        <input type="text" id="Iname" name="Iname">
+        <br>
+        <label for="Sprice">New Price:</label>
+        <input type="text" id="Sprice" name="Sprice">
+        <br>
+        <label for="IiD">New Item ID:</label>
+        <input type="text" id="IiD" name="IiD">
+        <br>
+        <button type="submit">Update Item</button>
+    </form>
+    <hr>
+    <h2>Delete an Existing Item</h2>
+    <form action="/delete_item" method="POST">
+        <label for="Iid">Item ID:</label>
+        <input type="text" id="Iid" name="Iid">
+        <br>
+        <button type="submit">Delete Item</button>
+    </form>
+</body>
+</html>
