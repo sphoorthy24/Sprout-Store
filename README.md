@@ -31,7 +31,7 @@ MySQL: Install MySQL and phpMyAdmin to manage the database. You can download the
 Installation :
 
 Clone the repository to your local machine:
-git clone https://github.com/your-username/sprouts-store.git
+git clone https://github.com/sphoorthy24/sprouts-store.git
 
 Navigate to the project directory:
 cd sprouts-store
