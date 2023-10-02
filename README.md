@@ -6,7 +6,7 @@ Database Integration: We have integrated MySQL using Flask to manage product, cu
 
 phpMyAdmin: The relational database is managed using phpMyAdmin, which provides an easy-to-use interface for database administration.
 
-User Interface: We have crafted an intuitive, user-friendly interface to enhance the shopping experience, resulting in a 9.82% boost in user satisfaction.
+User Interface: We have crafted an intuitive, user-friendly interface to enhance the shopping experience
 
 SQL Queries: SQL queries have been implemented for efficient data retrieval and management, ensuring that the website operates smoothly.
 
